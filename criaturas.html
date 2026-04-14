@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Criaturas — Mitología Japonesa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido</a>
+
+  <!-- HEADER -->
+  <header class="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Ir al inicio — Mitología Japonesa">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="navbar__logo-img">
+    </a>
+    <nav class="navbar__nav" aria-label="Navegación principal">
+      <a href="leyendas.html" class="navbar__link">Leyendas</a>
+      <a href="criaturas.html" class="navbar__link navbar__link--active" aria-current="page">Criaturas</a>
+      <a href="dioses.html" class="navbar__link">Dioses</a>
+    </nav>
+    <div class="lang-switch" role="navigation" aria-label="Selector de idioma">
+      <a href="en/criaturas.html" class="lang-switch__btn" aria-label="Switch to English">USA</a>
+      <span class="lang-switch__sep" aria-hidden="true"></span>
+      <span class="lang-switch__btn lang-switch__btn--active" aria-current="true" aria-label="Español seleccionado">ES</span>
+    </div>
+  </header>
+
+  <!-- ASIDE: puntos de navegación -->
+  <aside class="side-nav" aria-label="Navegación de secciones">
+    <a href="#criaturas"        class="side-nav__dot side-nav__dot--active" aria-label="Galería de criaturas"></a>
+    <a href="#criatura-yokai"   class="side-nav__dot" aria-label="Yōkai"></a>
+    <a href="#criatura-oni"     class="side-nav__dot" aria-label="Oni"></a>
+    <a href="#criatura-kitsune" class="side-nav__dot" aria-label="Kitsune"></a>
+    <a href="#criatura-tengu"   class="side-nav__dot" aria-label="Tengu"></a>
+    <a href="#criatura-yurei"   class="side-nav__dot" aria-label="Yūrei"></a>
+  </aside>
+
+  <!-- MAIN -->
+  <main id="contenido-principal">
+
+    <!-- GALERÍA DE CRIATURAS -->
+    <section class="page page--gallery" id="criaturas" aria-labelledby="titulo-criaturas">
+
+      <a href="index.html" class="back-arrow" aria-label="Volver al inicio">&#8249;</a>
+
+      <h1 class="gallery__title" id="titulo-criaturas">Criaturas</h1>
+
+      <div class="gallery__grid" role="list">
+
+        <a href="#criatura-yokai" class="gallery__card" role="listitem">
+          <img src="imagenes/Yokai.png"
+               alt="Yōkai: criaturas sobrenaturales del folclore japonés"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Yōkai</span>
+        </a>
+
+        <a href="#criatura-oni" class="gallery__card" role="listitem">
+          <img src="imagenes/Oni.png"
+               alt="Oni: demonio gigante con cuernos y piel roja de la mitología japonesa"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Oni</span>
+        </a>
+
+        <a href="#criatura-kitsune" class="gallery__card" role="listitem">
+          <img src="imagenes/Kitsune.png"
+               alt="Kitsune: zorro mágico con múltiples colas de la mitología japonesa"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Kitsune</span>
+        </a>
+
+        <a href="#criatura-tengu" class="gallery__card" role="listitem">
+          <img src="imagenes/Tengu.png"
+               alt="Tengu: ser mitad humano mitad ave, guardián de montañas y bosques"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Tengu</span>
+        </a>
+
+        <a href="#criatura-yurei" class="gallery__card" role="listitem">
+          <img src="imagenes/Yurei.png"
+               alt="Yūrei: espíritu de persona fallecida con emociones intensas no resueltas"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Yūrei</span>
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Yōkai -->
+    <section class="page page--detail" id="criatura-yokai" aria-labelledby="titulo-yokai">
+      <a href="#criaturas" class="back-arrow" aria-label="Volver a Criaturas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-yokai">Yōkai</h2>
+          <p class="detail__body">
+            Los Yōkai son criaturas sobrenaturales del folclore japonés. Pueden
+            ser monstruos, espíritus o seres mágicos. Algunos son malvados, otros
+            traviesos y algunos incluso ayudan a los humanos. Son muy variados
+            y representan miedos, leyendas antiguas y fenómenos naturales inexplicables.
+          </p>
+        </div>
+        <img src="imagenes/Yokai.png"
+             alt="Medallón ilustrado del Yōkai: criatura sobrenatural rodeada de niebla y calaveras"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Oni -->
+    <section class="page page--detail" id="criatura-oni" aria-labelledby="titulo-oni">
+      <a href="#criaturas" class="back-arrow" aria-label="Volver a Criaturas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-oni">Oni</h2>
+          <p class="detail__body">
+            Los Oni son demonios o criaturas gigantes, normalmente con piel
+            roja o azul, cuernos y una fuerza brutal. Suelen aparecer como seres
+            violentos que castigan a los malos o causan desgracias. En muchas
+            historias representan el mal, pero también pueden ser guardianes o
+            castigos divinos.
+          </p>
+        </div>
+        <img src="imagenes/Oni.png"
+             alt="Medallón del Oni: demonio rojo con cuernos y expresión feroz"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Kitsune -->
+    <section class="page page--detail" id="criatura-kitsune" aria-labelledby="titulo-kitsune">
+      <a href="#criaturas" class="back-arrow" aria-label="Volver a Criaturas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-kitsune">Kitsune</h2>
+          <p class="detail__body">
+            Los Kitsune son zorros mágicos con gran inteligencia y poderes sobrenaturales.
+            Se dice que mientras más viejos son, más colas tienen (hasta nueve). Pueden
+            transformarse en humanos, especialmente en mujeres. Algunos kitsune son
+            protectores y mensajeros del dios Inari, mientras otros engañan a las personas.
+          </p>
+        </div>
+        <img src="imagenes/Kitsune.png"
+             alt="Medallón del Kitsune: zorro blanco mágico con múltiples colas y máscara"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Tengu -->
+    <section class="page page--detail" id="criatura-tengu" aria-labelledby="titulo-tengu">
+      <a href="#criaturas" class="back-arrow" aria-label="Volver a Criaturas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-tengu">Tengu</h2>
+          <p class="detail__body">
+            Los Tengu son seres mitad humanos y mitad ave, asociados con montañas y
+            bosques. Se representan con alas y, en algunas versiones, con rostro rojo
+            y una nariz larga. Son expertos guerreros y están ligados a los samurais.
+            Pueden ser peligrosos, pero también protectores de la naturaleza.
+          </p>
+        </div>
+        <img src="imagenes/Tengu.png"
+             alt="Medallón del Tengu: ser con sombrero de samurái, alas y expresión imponente"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Yūrei -->
+    <section class="page page--detail" id="criatura-yurei" aria-labelledby="titulo-yurei">
+      <a href="#criaturas" class="back-arrow" aria-label="Volver a Criaturas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-yurei">Yūrei</h2>
+          <p class="detail__body">
+            Los Yūrei son espíritus de personas que murieron con emociones intensas como
+            tristeza, odio o venganza. Se cree que no pueden descansar hasta cumplir un
+            propósito. Se representan con ropa blanca, cabello largo y suelto y un aspecto
+            pálido. Son muy comunes en historias de terror japonés.
+          </p>
+        </div>
+        <img src="imagenes/Yurei.png"
+             alt="Medallón del Yūrei: espíritu pálido con cabello largo y ropa blanca"
+             class="detail__img">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__brand">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="site-footer__logo">
+      <span class="site-footer__name">Mitología Japonesa</span>
+    </div>
+    <nav class="site-footer__nav" aria-label="Navegación secundaria">
+      <a href="leyendas.html">Leyendas</a>
+      <a href="criaturas.html">Criaturas</a>
+      <a href="dioses.html">Dioses</a>
+    </nav>
+    <p class="site-footer__copy">© 2025 Mitología Japonesa</p>
+  </footer>
+
+</body>
+</html>

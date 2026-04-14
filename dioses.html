@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dioses — Mitología Japonesa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="dioses.css" />
+</head>
+<body>
+
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido</a>
+
+  <!-- HEADER -->
+  <header class="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Ir al inicio — Mitología Japonesa">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="navbar__logo-img">
+    </a>
+    <nav class="navbar__nav" aria-label="Navegación principal">
+      <a href="leyendas.html" class="navbar__link">Leyendas</a>
+      <a href="criaturas.html" class="navbar__link">Criaturas</a>
+      <a href="dioses.html" class="navbar__link navbar__link--active" aria-current="page">Dioses</a>
+    </nav>
+    <div class="lang-switch" role="navigation" aria-label="Selector de idioma">
+      <a href="en/dioses.html" class="lang-switch__btn" aria-label="Switch to English">USA</a>
+      <span class="lang-switch__sep" aria-hidden="true"></span>
+      <span class="lang-switch__btn lang-switch__btn--active" aria-current="true" aria-label="Español seleccionado">ES</span>
+    </div>
+  </header>
+
+  <!-- ASIDE: puntos de navegación -->
+  <aside class="side-nav" aria-label="Navegación de secciones">
+    <a href="#dioses"         class="side-nav__dot side-nav__dot--active" aria-label="Galería de dioses"></a>
+    <a href="#dios-amaterasu" class="side-nav__dot" aria-label="Amaterasu"></a>
+    <a href="#dios-susanoo"   class="side-nav__dot" aria-label="Susanoo"></a>
+    <a href="#dios-tsukuyomi" class="side-nav__dot" aria-label="Tsukuyomi"></a>
+    <a href="#dios-izanagi"   class="side-nav__dot" aria-label="Izanagi e Izanami"></a>
+  </aside>
+
+  <!-- MAIN -->
+  <main id="contenido-principal">
+
+    <!-- GALERÍA DE DIOSES -->
+    <section class="page page--gallery" id="dioses" aria-labelledby="titulo-dioses">
+
+      <a href="index.html" class="back-arrow" aria-label="Volver al inicio">&#8249;</a>
+
+      <h1 class="gallery__title" id="titulo-dioses">Dioses</h1>
+
+      <div class="gallery__grid gallery__grid--dioses" role="list">
+
+        <a href="#dios-amaterasu" class="gallery__card" role="listitem">
+          <img src="imagenes/Amaterasu.png"
+               alt="Amaterasu, diosa del sol en la mitología japonesa"
+               class="gallery__card-img">
+          <span class="gallery__card-name">
+            Amaterasu
+            <small>(Diosa del Sol)</small>
+          </span>
+        </a>
+
+        <a href="#dios-susanoo" class="gallery__card" role="listitem">
+          <img src="imagenes/Susanoo.png"
+               alt="Susanoo, dios del mar y las tormentas en la mitología japonesa"
+               class="gallery__card-img">
+          <span class="gallery__card-name">
+            Susanoo
+            <small>(Dios del mar y las tormentas)</small>
+          </span>
+        </a>
+
+        <a href="#dios-tsukuyomi" class="gallery__card" role="listitem">
+          <img src="imagenes/Tsukuyomi.png"
+               alt="Tsukuyomi, dios de la luna en la mitología japonesa"
+               class="gallery__card-img">
+          <span class="gallery__card-name">
+            Tsukuyomi
+            <small>(Dios de la Luna)</small>
+          </span>
+        </a>
+
+        <a href="#dios-izanagi" class="gallery__card" role="listitem">
+          <img src="imagenes/Izanami.png"
+               alt="Izanagi e Izanami, dioses creadores de las islas de Japón"
+               class="gallery__card-img">
+          <span class="gallery__card-name">
+            Izanagi e Izanami
+            <small>(Creadores de Japón)</small>
+          </span>
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Amaterasu -->
+    <section class="page page--detail" id="dios-amaterasu" aria-labelledby="titulo-amaterasu">
+      <a href="#dioses" class="back-arrow" aria-label="Volver a Dioses">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-amaterasu">Amaterasu</h2>
+          <p class="detail__body">
+            Amaterasu Omikami es la diosa del sol y una de las figuras más
+            importantes del sintoísmo. Es considerada la protectora de Japón
+            y, según la tradición, de ella desciende la familia imperial
+            japonesa. Representa la luz, la vida, el orden y la prosperidad.
+            Su mito más famoso cuenta que se escondió en una cueva y el mundo
+            quedó en oscuridad.
+          </p>
+        </div>
+        <img src="imagenes/Amaterasu.png"
+             alt="Medallón de Amaterasu: diosa del sol rodeada de rayos dorados y flores de cerezo"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Susanoo -->
+    <section class="page page--detail" id="dios-susanoo" aria-labelledby="titulo-susanoo">
+      <a href="#dioses" class="back-arrow" aria-label="Volver a Dioses">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-susanoo">Susanoo</h2>
+          <p class="detail__body">
+            Susanoo no Mikoto es el hermano de Amaterasu y es conocido como el
+            dios del mar, las tormentas y el caos. Tiene una personalidad
+            impulsiva y destructiva, pero también es un héroe en algunas leyendas.
+            Su historia más famosa es cuando derrotó al monstruo Yamata-no-Orochi
+            (un dragón de ocho cabezas) y encontró la espada legendaria Kusanagi.
+          </p>
+        </div>
+        <img src="imagenes/Susanoo.png"
+             alt="Medallón de Susanoo: dios de las tormentas entre olas y viento"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Tsukuyomi -->
+    <section class="page page--detail" id="dios-tsukuyomi" aria-labelledby="titulo-tsukuyomi">
+      <a href="#dioses" class="back-arrow" aria-label="Volver a Dioses">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-tsukuyomi">Tsukuyomi</h2>
+          <p class="detail__body">
+            Tsukuyomi-no-Mikoto es el dios de la luna y hermano de Amaterasu.
+            Representa la noche, el misterio y el equilibrio con el Sol.
+            Según la mitología, se separó de Amaterasu después de un conflicto,
+            y por eso el sol y la luna nunca están juntos en el cielo al mismo
+            tiempo.
+          </p>
+        </div>
+        <img src="imagenes/Tsukuyomi.png"
+             alt="Medallón de Tsukuyomi: dios de la luna con luna creciente y flores de cerezo"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Izanagi e Izanami — dos medallones -->
+    <section class="page page--detail" id="dios-izanagi" aria-labelledby="titulo-izanagi">
+      <a href="#dioses" class="back-arrow" aria-label="Volver a Dioses">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-izanagi">Izanagi e Izanami</h2>
+          <p class="detail__body">
+            Izanagi (dios masculino) e Izanami (diosa femenina) son los dioses
+            creadores del mundo y de las islas de Japón. Según el mito, crearon
+            la tierra removiendo el mar con una lanza sagrada. También dieron
+            origen a otros dioses importantes. Izanami murió al dar a luz al dios
+            del fuego, y su historia se conecta con el origen de la muerte y el
+            inframundo en Japón.
+          </p>
+        </div>
+        <div class="detail-dual-col">
+          <img src="imagenes/Izanagi.png"
+               alt="Medallón de Izanagi: dios creador masculino con corona de flores y lanza divina"
+               class="detail__img detail__img--sm">
+          <img src="imagenes/Izanami.png"
+               alt="Medallón de Izanami: diosa creadora femenina con velo de luz y flores acuáticas"
+               class="detail__img detail__img--sm">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__brand">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="site-footer__logo">
+      <span class="site-footer__name">Mitología Japonesa</span>
+    </div>
+    <nav class="site-footer__nav" aria-label="Navegación secundaria">
+      <a href="leyendas.html">Leyendas</a>
+      <a href="criaturas.html">Criaturas</a>
+      <a href="dioses.html">Dioses</a>
+    </nav>
+    <p class="site-footer__copy">© 2025 Mitología Japonesa</p>
+  </footer>
+
+</body>
+</html>

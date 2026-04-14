@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Legends — Japanese Mythology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <header class="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Go to home — Japanese Mythology">
+      <img src="../imagenes/Logo.png" alt="Japanese Mythology Logo" class="navbar__logo-img">
+    </a>
+    <nav class="navbar__nav" aria-label="Main navigation">
+      <a href="leyendas.html" class="navbar__link navbar__link--active" aria-current="page">Legends</a>
+      <a href="criaturas.html" class="navbar__link">Creatures</a>
+      <a href="dioses.html" class="navbar__link">Gods</a>
+    </nav>
+    <div class="lang-switch" role="navigation" aria-label="Language selector">
+      <span class="lang-switch__btn lang-switch__btn--active" aria-current="true" aria-label="English selected">USA</span>
+      <span class="lang-switch__sep" aria-hidden="true"></span>
+      <a href="../leyendas.html" class="lang-switch__btn" aria-label="Cambiar a español">ES</a>
+    </div>
+  </header>
+
+  <aside class="side-nav" aria-label="Section navigation">
+    <a href="#legends"          class="side-nav__dot side-nav__dot--active" aria-label="Legends gallery"></a>
+    <a href="#legend-creation"  class="side-nav__dot" aria-label="The creation of Japan"></a>
+    <a href="#legend-cave"      class="side-nav__dot" aria-label="Amaterasu in the cave"></a>
+    <a href="#legend-momotaro"  class="side-nav__dot" aria-label="Momotarō"></a>
+    <a href="#legend-kaguya"    class="side-nav__dot" aria-label="Princess Kaguya"></a>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- GALLERY -->
+    <section class="page page--gallery" id="legends" aria-labelledby="legends-title">
+      <a href="index.html" class="back-arrow" aria-label="Back to home">&#8249;</a>
+      <h1 class="gallery__title" id="legends-title">Legends</h1>
+      <div class="gallery__grid" role="list">
+
+        <a href="#legend-creation" class="gallery__card" role="listitem">
+          <img src="../imagenes/Creacion1.png"
+               alt="Izanagi and Izanami creating the islands of Japan with a divine spear"
+               class="gallery__card-img">
+          <span class="gallery__card-name">The Creation of Japan</span>
+        </a>
+
+        <a href="#legend-cave" class="gallery__card" role="listitem">
+          <img src="../imagenes/Amaterasu1.png"
+               alt="Amaterasu emerging from the cave where she had hidden"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Amaterasu Hidden<br>in the Cave</span>
+        </a>
+
+        <a href="#legend-momotaro" class="gallery__card" role="listitem">
+          <img src="../imagenes/Momotaro.png"
+               alt="Momotarō, the boy born inside a giant peach"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Momotarō</span>
+        </a>
+
+        <a href="#legend-kaguya" class="gallery__card" role="listitem">
+          <img src="../imagenes/Kaguya.png"
+               alt="Princess Kaguya, the moon woman found in a bamboo stalk"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Princess Kaguya</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- DETAIL: Creation of Japan -->
+    <section class="page page--detail" id="legend-creation" aria-labelledby="creation-title">
+      <a href="#legends" class="back-arrow" aria-label="Back to Legends">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="creation-title">The Creation of Japan</h2>
+          <p class="detail__body">
+            It tells how Izanagi and Izanami created the Japanese islands using a divine spear
+            to stir the ocean. From the drops that fell, the first lands were born.
+            They then created other gods, thus forming the sacred origin of Japan.
+          </p>
+        </div>
+        <img src="../imagenes/Creacion1.png"
+             alt="Illustrated medallion of the creation of Japan: Izanagi and Izanami in the primordial sea"
+             class="detail__img">
+      </div>
+    </section>
+
+    <!-- DETAIL: Amaterasu in the cave -->
+    <section class="page page--detail" id="legend-cave" aria-labelledby="cave-title">
+      <a href="#legends" class="back-arrow" aria-label="Back to Legends">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="cave-title">Amaterasu Hidden in the Cave</h2>
+          <p class="detail__body">
+            Amaterasu hid in a cave after a fight with her brother Susanoo.
+            When the Sun disappeared, the world fell into darkness and chaos. The gods held
+            a party in front of the cave and lured her out with curiosity, restoring
+            light to the world.
+          </p>
+        </div>
+        <img src="../imagenes/Amaterasu1.png"
+             alt="Medallion of Amaterasu emerging from the cave of darkness"
+             class="detail__img">
+      </div>
+    </section>
+
+    <!-- DETAIL: Momotarō -->
+    <section class="page page--detail" id="legend-momotaro" aria-labelledby="momotaro-title">
+      <a href="#legends" class="back-arrow" aria-label="Back to Legends">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="momotaro-title">Momotarō</h2>
+          <p class="detail__body">
+            Momotarō is a hero who was born inside a giant peach. He was
+            raised by an elderly couple and grew up with great strength. Later
+            he traveled to an island to defeat the oni who were stealing treasures.
+            Along the way he made friends: a dog, a monkey and a pheasant, who
+            helped him win.
+          </p>
+        </div>
+        <img src="../imagenes/Momotaro.png"
+             alt="Medallion of Momotarō with his magic peach and his animal companions"
+             class="detail__img">
+      </div>
+    </section>
+
+    <!-- DETAIL: Princess Kaguya -->
+    <section class="page page--detail" id="legend-kaguya" aria-labelledby="kaguya-title">
+      <a href="#legends" class="back-arrow" aria-label="Back to Legends">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="kaguya-title">Princess Kaguya</h2>
+          <p class="detail__body">
+            The legend tells that an old man found a glowing girl inside
+            a bamboo stalk. She grew up and became a beautiful woman
+            named Kaguya. Many men wanted to marry her, but she rejected them all.
+            In the end it is revealed that she comes from the moon and must return,
+            leaving everyone in sorrow.
+          </p>
+        </div>
+        <img src="../imagenes/Kaguya1.png"
+             alt="Medallion of Princess Kaguya under moonlight"
+             class="detail__img">
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__brand">
+      <img src="../imagenes/Logo.png" alt="Japanese Mythology Logo" class="site-footer__logo">
+      <span class="site-footer__name">Japanese Mythology</span>
+    </div>
+    <nav class="site-footer__nav" aria-label="Secondary navigation">
+      <a href="leyendas.html">Legends</a>
+      <a href="criaturas.html">Creatures</a>
+      <a href="dioses.html">Gods</a>
+    </nav>
+    <p class="site-footer__copy">© 2025 Japanese Mythology</p>
+  </footer>
+
+</body>
+</html>

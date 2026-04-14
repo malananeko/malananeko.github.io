@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mitología Japonesa — Inicio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <!-- Skip link: accesibilidad teclado -->
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido</a>
+
+  <!-- ══════════════════════════════════════════════
+       HEADER — navegación principal
+  ══════════════════════════════════════════════ -->
+  <header class="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Ir al inicio — Mitología Japonesa">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="navbar__logo-img">
+    </a>
+    <nav class="navbar__nav" aria-label="Navegación principal">
+      <a href="leyendas.html" class="navbar__link">Leyendas</a>
+      <a href="criaturas.html" class="navbar__link">Criaturas</a>
+      <a href="dioses.html" class="navbar__link">Dioses</a>
+    </nav>
+    <div class="lang-switch" role="navigation" aria-label="Selector de idioma">
+      <a href="en/index.html" class="lang-switch__btn" aria-label="Switch to English">USA</a>
+      <span class="lang-switch__sep" aria-hidden="true"></span>
+      <span class="lang-switch__btn lang-switch__btn--active" aria-current="true" aria-label="Español seleccionado">ES</span>
+    </div>
+  </header>
+
+  <!-- Barra lateral de progreso -->
+  <aside class="side-nav" aria-label="Navegación de secciones">
+    <a href="#inicio"     class="side-nav__dot side-nav__dot--active" title="Inicio" aria-label="Sección: Inicio"></a>
+    <a href="#sintoismo"  class="side-nav__dot" title="Sintoísmo"  aria-label="Sección: Sintoísmo"></a>
+    <a href="#kami"       class="side-nav__dot" title="Kami"        aria-label="Sección: Kami"></a>
+    <a href="#naturaleza" class="side-nav__dot" title="Relación con la Naturaleza" aria-label="Sección: Naturaleza"></a>
+  </aside>
+
+  <!-- ══════════════════════════════════════════════
+       MAIN — contenido principal
+  ══════════════════════════════════════════════ -->
+  <main id="contenido-principal">
+
+    <!-- SECCIÓN 1 — HERO / INICIO -->
+    <section class="page page--hero" id="inicio" aria-labelledby="titulo-hero">
+
+      <div class="hero__deco" aria-hidden="true">
+        <img src="imagenes/Torii-BG.svg" alt="" class="hero__deco-img">
+      </div>
+
+      <div class="hero__content">
+        <h1 class="hero__title" id="titulo-hero">Mitología<br>Japonesa</h1>
+        <p class="hero__body">
+          La mitología japonesa es un mundo lleno de misterio, dioses y criaturas sobrenaturales.
+          A través del sintoísmo, Japón ha construido historias donde la naturaleza está viva
+          gracias a los kami, espíritus que habitan montañas, ríos y bosques. En estas leyendas
+          aparecen dioses como Amaterasu, seres como los yōkai y relatos antiguos que aún
+          inspiran el arte y la cultura japonesa.
+        </p>
+      </div>
+
+      <a href="#sintoismo" class="scroll-arrow" aria-label="Ir a la sección Sintoísmo">&#8964;</a>
+    </section>
+
+
+    <!-- SECCIÓN 2 — SINTOÍSMO -->
+    <section class="page page--content" id="sintoismo" aria-labelledby="titulo-sintoismo">
+
+      <div class="content__deco content__deco--right" aria-hidden="true">
+        <img src="imagenes/yingyang.svg" alt="" class="content__deco-img">
+      </div>
+
+      <div class="content__text">
+        <h2 class="content__title" id="titulo-sintoismo">Sintoísmo</h2>
+        <p class="content__body">
+          El sintoísmo es la religión tradicional de Japón y se basa en la conexión espiritual
+          con el mundo natural. No tiene un fundador específico ni un libro sagrado único,
+          sino que se transmite a través de rituales, templos y tradiciones antiguas.
+        </p>
+      </div>
+
+      <a href="#kami" class="scroll-arrow" aria-label="Ir a la sección Kami">&#8964;</a>
+    </section>
+
+
+    <!-- SECCIÓN 3 — KAMI -->
+    <section class="page page--content" id="kami" aria-labelledby="titulo-kami">
+
+      <div class="content__deco content__deco--right" aria-hidden="true">
+        <img src="imagenes/Dragon-kami.svg" alt="" class="content__deco-img">
+      </div>
+
+      <div class="content__text">
+        <h2 class="content__title" id="titulo-kami">Kami</h2>
+        <p class="content__body">
+          Los kami son espíritus o deidades presentes en la mitología japonesa. Pueden representar
+          fuerzas de la naturaleza, ancestros o seres sagrados. No siempre son "dioses" como en
+          otras religiones, sino energías que protegen, guían o influyen en el mundo.
+        </p>
+      </div>
+
+      <a href="#naturaleza" class="scroll-arrow" aria-label="Ir a la sección Relación con la Naturaleza">&#8964;</a>
+    </section>
+
+
+    <!-- SECCIÓN 4 — RELACIÓN CON LA NATURALEZA -->
+    <section class="page page--content" id="naturaleza" aria-labelledby="titulo-naturaleza">
+
+      <div class="content__deco content__deco--right" aria-hidden="true">
+        <img src="imagenes/Loto.svg" alt="" class="content__deco-img">
+      </div>
+
+      <div class="content__text">
+        <h2 class="content__title" id="titulo-naturaleza">Relación<br>con la<br>Naturaleza</h2>
+        <p class="content__body">
+          La mitología japonesa está profundamente unida a la naturaleza, ya que se cree que
+          los kami habitan en elementos como montañas, ríos, árboles y animales. Por eso,
+          la naturaleza es vista como algo sagrado, digno de respeto y admiración.
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__brand">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="site-footer__logo">
+      <span class="site-footer__name">Mitología Japonesa</span>
+    </div>
+    <nav class="site-footer__nav" aria-label="Navegación secundaria">
+      <a href="leyendas.html">Leyendas</a>
+      <a href="criaturas.html">Criaturas</a>
+      <a href="dioses.html">Dioses</a>
+    </nav>
+    <p class="site-footer__copy">© 2025 Mitología Japonesa</p>
+  </footer>
+
+</body>
+</html>

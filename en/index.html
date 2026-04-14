@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Japanese Mythology — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../index.css" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <header class="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Go to home — Japanese Mythology">
+      <img src="../imagenes/Logo.png" alt="Japanese Mythology Logo" class="navbar__logo-img">
+    </a>
+    <nav class="navbar__nav" aria-label="Main navigation">
+      <a href="leyendas.html" class="navbar__link">Legends</a>
+      <a href="criaturas.html" class="navbar__link">Creatures</a>
+      <a href="dioses.html" class="navbar__link">Gods</a>
+    </nav>
+    <!-- Switch de idioma: USA activo -->
+    <div class="lang-switch" role="navigation" aria-label="Language selector">
+      <span class="lang-switch__btn lang-switch__btn--active" aria-current="true" aria-label="English selected">USA</span>
+      <span class="lang-switch__sep" aria-hidden="true"></span>
+      <a href="../index.html" class="lang-switch__btn" aria-label="Cambiar a español">ES</a>
+    </div>
+  </header>
+
+  <aside class="side-nav" aria-label="Section navigation">
+    <a href="#home"        class="side-nav__dot side-nav__dot--active" aria-label="Section: Home"></a>
+    <a href="#shintoism"   class="side-nav__dot" aria-label="Section: Shintoism"></a>
+    <a href="#kami"        class="side-nav__dot" aria-label="Section: Kami"></a>
+    <a href="#nature"      class="side-nav__dot" aria-label="Section: Relationship with Nature"></a>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="page page--hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__deco" aria-hidden="true">
+        <img src="../imagenes/Torii-BG.svg" alt="" class="hero__deco-img">
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title" id="hero-title">Japanese<br>Mythology</h1>
+        <p class="hero__body">
+          Japanese mythology is a world full of mystery, gods and supernatural creatures.
+          Through Shintoism, Japan has built stories where nature is alive
+          thanks to the kami, spirits that inhabit mountains, rivers and forests. In these legends
+          gods like Amaterasu appear, beings like the yōkai and ancient tales that still
+          inspire Japanese art and culture.
+        </p>
+      </div>
+      <a href="#shintoism" class="scroll-arrow" aria-label="Go to Shintoism section">&#8964;</a>
+    </section>
+
+    <!-- SHINTOISM -->
+    <section class="page page--content" id="shintoism" aria-labelledby="shintoism-title">
+      <div class="content__deco content__deco--right" aria-hidden="true">
+        <img src="../imagenes/yingyang.svg" alt="" class="content__deco-img">
+      </div>
+      <div class="content__text">
+        <h2 class="content__title" id="shintoism-title">Shintoism</h2>
+        <p class="content__body">
+          Shintoism is Japan's traditional religion and is based on spiritual connection
+          with the natural world. It has no specific founder or single sacred book,
+          but is transmitted through rituals, temples and ancient traditions.
+        </p>
+      </div>
+      <a href="#kami" class="scroll-arrow" aria-label="Go to Kami section">&#8964;</a>
+    </section>
+
+    <!-- KAMI -->
+    <section class="page page--content" id="kami" aria-labelledby="kami-title">
+      <div class="content__deco content__deco--right" aria-hidden="true">
+        <img src="../imagenes/Dragon-kami.svg" alt="" class="content__deco-img">
+      </div>
+      <div class="content__text">
+        <h2 class="content__title" id="kami-title">Kami</h2>
+        <p class="content__body">
+          Kami are spirits or deities present in Japanese mythology. They can represent
+          forces of nature, ancestors or sacred beings. They are not always "gods" as in
+          other religions, but energies that protect, guide or influence the world.
+        </p>
+      </div>
+      <a href="#nature" class="scroll-arrow" aria-label="Go to Nature section">&#8964;</a>
+    </section>
+
+    <!-- NATURE -->
+    <section class="page page--content" id="nature" aria-labelledby="nature-title">
+      <div class="content__deco content__deco--right" aria-hidden="true">
+        <img src="../imagenes/Loto.svg" alt="" class="content__deco-img">
+      </div>
+      <div class="content__text">
+        <h2 class="content__title" id="nature-title">Relationship<br>with<br>Nature</h2>
+        <p class="content__body">
+          Japanese mythology is deeply connected to nature, as it is believed that
+          kami dwell in elements such as mountains, rivers, trees and animals. Therefore,
+          nature is seen as something sacred, worthy of respect and admiration.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__brand">
+      <img src="../imagenes/Logo.png" alt="Japanese Mythology Logo" class="site-footer__logo">
+      <span class="site-footer__name">Japanese Mythology</span>
+    </div>
+    <nav class="site-footer__nav" aria-label="Secondary navigation">
+      <a href="leyendas.html">Legends</a>
+      <a href="criaturas.html">Creatures</a>
+      <a href="dioses.html">Gods</a>
+    </nav>
+    <p class="site-footer__copy">© 2025 Japanese Mythology</p>
+  </footer>
+
+</body>
+</html>

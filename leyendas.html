@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leyendas — Mitología Japonesa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <a href="#contenido-principal" class="skip-link">Saltar al contenido</a>
+
+  <!-- HEADER -->
+  <header class="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Ir al inicio — Mitología Japonesa">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="navbar__logo-img">
+    </a>
+    <nav class="navbar__nav" aria-label="Navegación principal">
+      <a href="leyendas.html" class="navbar__link navbar__link--active" aria-current="page">Leyendas</a>
+      <a href="criaturas.html" class="navbar__link">Criaturas</a>
+      <a href="dioses.html" class="navbar__link">Dioses</a>
+    </nav>
+    <div class="lang-switch" role="navigation" aria-label="Selector de idioma">
+      <a href="en/leyendas.html" class="lang-switch__btn" aria-label="Switch to English">USA</a>
+      <span class="lang-switch__sep" aria-hidden="true"></span>
+      <span class="lang-switch__btn lang-switch__btn--active" aria-current="true" aria-label="Español seleccionado">ES</span>
+    </div>
+  </header>
+
+  <!-- ASIDE: puntos de navegación lateral -->
+  <aside class="side-nav" aria-label="Navegación de secciones">
+    <a href="#leyendas"         class="side-nav__dot side-nav__dot--active" aria-label="Galería de leyendas"></a>
+    <a href="#leyenda-creacion" class="side-nav__dot" aria-label="La creación de Japón"></a>
+    <a href="#leyenda-cueva"    class="side-nav__dot" aria-label="Amaterasu y la Cueva"></a>
+    <a href="#leyenda-momotaro" class="side-nav__dot" aria-label="Momotarō"></a>
+    <a href="#leyenda-kaguya"   class="side-nav__dot" aria-label="La princesa Kaguya"></a>
+  </aside>
+
+  <!-- MAIN -->
+  <main id="contenido-principal">
+
+    <!-- GALERÍA DE LEYENDAS -->
+    <section class="page page--gallery" id="leyendas" aria-labelledby="titulo-leyendas">
+
+      <a href="index.html" class="back-arrow" aria-label="Volver al inicio">&#8249;</a>
+
+      <h1 class="gallery__title" id="titulo-leyendas">Leyendas</h1>
+
+      <div class="gallery__grid" role="list">
+
+        <a href="#leyenda-creacion" class="gallery__card" role="listitem">
+          <img src="imagenes/Creacion1.png"
+               alt="Izanagi e Izanami creando las islas de Japón con una lanza divina"
+               class="gallery__card-img">
+          <span class="gallery__card-name">La creación de Japón</span>
+        </a>
+
+        <a href="#leyenda-cueva" class="gallery__card" role="listitem">
+          <img src="imagenes/Amaterasu1.png"
+               alt="Amaterasu emergiendo de la cueva donde se había escondido"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Amaterasu escondida<br>en la cueva</span>
+        </a>
+
+        <a href="#leyenda-momotaro" class="gallery__card" role="listitem">
+          <img src="imagenes/Momotaro.png"
+               alt="Momotarō, el niño que nació dentro de un melocotón gigante"
+               class="gallery__card-img">
+          <span class="gallery__card-name">Momotarō</span>
+        </a>
+
+        <a href="#leyenda-kaguya" class="gallery__card" role="listitem">
+          <img src="imagenes/Kaguya.png"
+               alt="La princesa Kaguya, mujer de la luna encontrada en un tallo de bambú"
+               class="gallery__card-img">
+          <span class="gallery__card-name">La princesa Kaguya</span>
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- DETALLE: La creación de Japón -->
+    <section class="page page--detail" id="leyenda-creacion" aria-labelledby="titulo-creacion">
+      <a href="#leyendas" class="back-arrow" aria-label="Volver a Leyendas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-creacion">La creación de Japón</h2>
+          <p class="detail__body">
+            Cuenta cómo Izanagi e Izanami crearon las islas japonesas al usar una lanza divina
+            para remover el océano. De las gotas que cayeron nacieron las primeras tierras.
+            Luego crearon otros dioses, formando así el origen sagrado de Japón.
+          </p>
+        </div>
+        <img src="imagenes/Creacion1.png"
+             alt="Medallón ilustrado de la creación de Japón: Izanagi e Izanami en el mar primordial"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Amaterasu en la cueva -->
+    <section class="page page--detail" id="leyenda-cueva" aria-labelledby="titulo-cueva">
+      <a href="#leyendas" class="back-arrow" aria-label="Volver a Leyendas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-cueva">Amaterasu escondida en la cueva</h2>
+          <p class="detail__body">
+            Amaterasu se escondió en una cueva después de una pelea con su hermano Susanoo.
+            Al desaparecer el Sol, el mundo quedó en oscuridad y caos. Los dioses hicieron
+            una fiesta frente a la cueva y lograron atraerla con curiosidad, devolviendo la
+            luz al mundo.
+          </p>
+        </div>
+        <img src="imagenes/Amaterasu1.png"
+             alt="Medallón de Amaterasu emergiendo de la cueva de la oscuridad"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: Momotarō -->
+    <section class="page page--detail" id="leyenda-momotaro" aria-labelledby="titulo-momotaro">
+      <a href="#leyendas" class="back-arrow" aria-label="Volver a Leyendas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-momotaro">Momotarō</h2>
+          <p class="detail__body">
+            Momotarō es un héroe que nació dentro de un durazno gigante. Fue
+            criado por una pareja de ancianos y creció con gran fuerza. Más
+            tarde viajó a una isla para derrotar a los oni que robaban tesoros.
+            En su camino hizo amigos: un perro, un mono y un faisán, quienes
+            lo ayudaron a ganar.
+          </p>
+        </div>
+        <img src="imagenes/Momotaro.png"
+             alt="Medallón de Momotarō con su durazno mágico y sus compañeros animales"
+             class="detail__img">
+      </div>
+    </section>
+
+
+    <!-- DETALLE: La princesa Kaguya -->
+    <section class="page page--detail" id="leyenda-kaguya" aria-labelledby="titulo-kaguya">
+      <a href="#leyendas" class="back-arrow" aria-label="Volver a Leyendas">&#8249;</a>
+      <div class="detail__layout">
+        <div class="detail__text">
+          <h2 class="detail__title" id="titulo-kaguya">La princesa Kaguya</h2>
+          <p class="detail__body">
+            La leyenda cuenta que un anciano encontró a una niña brillante dentro
+            de un tallo de bambú. Ella creció y se convirtió en una mujer hermosa
+            llamada Kaguya. Muchos hombres querían casarse con ella, pero ella los
+            rechazó. Al final se revela que viene de la luna y debe regresar,
+            dejando a todos con tristeza.
+          </p>
+        </div>
+        <img src="imagenes/Kaguya1.png"
+             alt="Medallón de la princesa Kaguya bajo la luz de la luna"
+             class="detail__img">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__brand">
+      <img src="imagenes/Logo.png" alt="Logo Mitología Japonesa" class="site-footer__logo">
+      <span class="site-footer__name">Mitología Japonesa</span>
+    </div>
+    <nav class="site-footer__nav" aria-label="Navegación secundaria">
+      <a href="leyendas.html">Leyendas</a>
+      <a href="criaturas.html">Criaturas</a>
+      <a href="dioses.html">Dioses</a>
+    </nav>
+    <p class="site-footer__copy">© 2025 Mitología Japonesa</p>
+  </footer>
+
+</body>
+</html>
